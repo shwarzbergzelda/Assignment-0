@@ -1,5 +1,13 @@
 function sumOfAllEvenNumbers(nums) {
-  // Insert code here;
+  let result = 0;
+
+  for (const num of nums) {
+    if ((num % 2) === 0) {
+      result++;
+    }
+  }
+
+  return result;
 }
 
 // Do not edit this line;
